@@ -1,0 +1,16 @@
+.userdetaillist {
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+}
+
+.bloguserdetail {
+    background-color: var(--color-purple-600);
+    text-decoration: none;
+    list-style: none;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 2px 2px 0px 2px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-weight: bold;
+}

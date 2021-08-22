@@ -1,0 +1,7 @@
+POST http://localhost:3003/api/blogs 
+Content-Type: application/json 
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIyIiwiaWQiOiI2MGM3NmY3NWI0YjM2ODExZWMzYmU3NGIiLCJpYXQiOjE2MjkwNzk4NzIsImV4cCI6MTYyOTA4MzQ3Mn0._f42XK0grrvmMX9d-ZnYd9fI7jE8NNgnS-IcvjGfG8I
+
+{
+"title": "titteli", "author": "authaa", "url": "urli", "likes": 1
+}

@@ -1,0 +1,21 @@
+.blogdetail {
+    padding: 10px;
+}
+
+.blogdetail h4 {
+    text-align: left;
+}
+
+.blogdetail-url, .blogdetail-added, .blogdetail-like, .blogdetail-remove {
+    padding: 5px 15px;
+    color: var(--color-purple-900);
+}
+
+.blogdetail-like p {
+    margin: 0;
+}
+
+.no-comments {
+    text-align: center;
+    color: var(--color-purple-900);
+}

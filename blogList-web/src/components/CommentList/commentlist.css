@@ -1,0 +1,10 @@
+.commentlist {
+    background-color: red;
+}
+
+.comment {
+    background-color: var(--color-purple-400);
+    padding: 15px;
+    color: var(--color-purple-900);
+    border-radius: 10px;
+}

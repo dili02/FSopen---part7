@@ -1,0 +1,39 @@
+.userlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.userlist table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: 15px auto;
+    color: var(--color-purple-900);
+    font-weight: bold;
+    text-align: center;
+}
+
+.userlist table th, td {
+    padding: 10px;
+    color: var(--color-purple-900);
+    font-weight: bold;
+}
+
+.userlist thead, tfoot {
+    color: var(--color-purple-900);
+}
+
+.userlist tbody tr:nth-child(odd) {
+    background-color: var(--color-purple-300);
+}
+
+.userlist tbody tr:nth-child(even) {
+    background-color:  var(--color-purple-400);
+}
+
+.tablelink, .tablelink:visited {
+    color: var(--color-purple-900);
+    text-decoration: none;
+}
+
+
